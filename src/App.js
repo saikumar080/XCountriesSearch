@@ -41,7 +41,7 @@ function App() {
       />
       <div className="countries-list">
         {loading ?(
-          // display the  circular loading animation:::::
+          // display the  circular loading animation::
           <div className="loader">
             <div className="spinner">
 
