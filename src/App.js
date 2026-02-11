@@ -51,7 +51,7 @@ function App() {
 
 
         ):  filteredCountries.length >0 ? filteredCountries.map((country)=>(
-          <div key={country.code} className="country-item">
+          <div key={country.code} className="countryCard">
             <img src={country.png} alt={country.common} />
             <p>{country.common}</p>
           </div>
