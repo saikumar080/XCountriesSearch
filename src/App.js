@@ -39,7 +39,7 @@ function App() {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-      <div className="countries-list">
+      <div className="countriesCard">
         {loading ?(
           // display the  circular loading animation::
           <div className="loader">

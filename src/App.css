@@ -11,7 +11,7 @@ input[type="text"] {
   margin-bottom: 20px;
   text-align: center;
 }
-.countries-list {
+.countriesCard {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
