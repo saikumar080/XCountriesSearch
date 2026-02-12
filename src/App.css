@@ -10,6 +10,7 @@ input[type="text"] {
   font-size: 16px;
   margin-bottom: 20px;
   text-align: center;
+  border-radius: 4px;
 }
 .countriesCard {
   display: flex;
@@ -17,7 +18,7 @@ input[type="text"] {
   justify-content: center;
   gap: 10px;
 }
-.country-item {
+.countryCard {
   width: 150px;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -26,24 +27,24 @@ input[type="text"] {
   background-color: #fff;
   cursor: pointer;
 }
-.country-item img {
+.countryCard img {
   width: 100%;
   height: 90px;
   object-fit: cover;
   margin-bottom: 8px;
  
 }
-.country-item img:hover{
+.countryCard img:hover{
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
-.country-item p {
+.countryCard p {
   font-size: 14px;
   margin: 0;
   font-weight: bold;
 }
 /* when the user hovers over a country item:: */
-.country-item:hover {
+.countryCard:hover {
   background-color: #f0f0f0;
   transform: translateY(-5px);
   transition: all 0.3s ease;
@@ -62,9 +63,9 @@ input[type="text"] {
   width: 50px;
   height: 50px;
   border: 6px solid #ddd;
-  border-top: 6px solid #3498db;
+  border-top: 6px solid #ba02df;
   border-radius: 50%;
-  animation: spin 1s linear infinite;
+  animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
